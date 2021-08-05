@@ -44,7 +44,7 @@ const snacksReducer = (state, action) => {
 const SnacksProvider = ({ children }) => {
   const [state, dispatch] = useReducer(snacksReducer, snacks);
 
-  return <SnacksContext.Provider value={(state, dispatch)}>{children}</SnacksContext.Provider>;
+  return <SnacksContext.Provider value={{state, dispatch}}>{children}</SnacksContext.Provider>;
 };
 
 export default SnacksProvider;
