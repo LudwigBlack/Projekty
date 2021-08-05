@@ -1,4 +1,4 @@
-const Product = ({ name, price }) => {
+export const Product = ({ name, price }) => {
   //const handleCLick = () => onClickHandler({ id, type: "ADD_PRODUCT" });
 
   return (
@@ -9,5 +9,3 @@ const Product = ({ name, price }) => {
     </div>
   );
 };
-
-export default Product;

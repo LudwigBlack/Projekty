@@ -1,4 +1,4 @@
-import { SnacksProvider } from "../contexts/SnacksProvider";
+import  SnacksProvider  from "../contexts/SnacksProvider";
 
 import "../styles/globals.css";
 
